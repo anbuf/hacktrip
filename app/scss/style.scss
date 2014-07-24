@@ -1,0 +1,158 @@
+.events {
+    height: 100vh;
+    color: #e6e6e6;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-right: 0px !important;
+
+    h1 { 
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: white;
+        font-size: 45px;
+        font-family: 'Carrois Gothic', sans-serif;
+    }
+
+    p {
+        width: 300px;
+        margin: auto;
+    }
+
+    b {
+        color: #ededed;
+        font-size: 22px;
+    }
+
+    .tags {
+        margin-top: 50px;
+    }
+
+    .left, .right {
+        height: 100%;
+    }
+    .left {
+        background-color: #343434;
+        padding: 0px 50px; 
+
+        h1 {
+            margin: 50px;
+        }
+
+        button {
+            float: left;
+        }
+
+        .top {
+            a {
+                color: white;
+            }
+
+            .login {
+                text-align: left;
+            }
+            .language {
+                text-align: right;
+            }
+            font-size: 15px;
+        }
+    }
+
+    .right:before {
+        //background-color: #343434 //#676767;
+        width: 100%;
+        height: 100%;
+        content: " ";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        background-size: cover;
+        background-image: url("../img/waterloo.jpg");
+        //-webkit-filter: blur(1px); //grayscale(100%);
+    }
+
+    .right {
+        padding: 30px 0px;
+        .event {
+        }
+        .info-bulle {
+            //background-color: #757575;
+            background-color: dimgrey;
+            $diam : 120px;
+            width: $diam;
+            height: $diam;
+            border-radius: $diam;
+            vertical-align: middle;
+            display: table-cell;
+        }
+
+        .event-info {
+            width: 100%;
+            margin: 0px auto 21% auto;
+            background-color: darkcyan;
+            //background: -webkit-linear-gradient(rgb(0,150,150), rgb(0,138,138));
+            padding: 10px;
+
+            .content {
+                width: 250px;
+                margin: auto;
+            }
+        }
+
+        .info-bulle-row {
+            margin-right: 0px;
+            .col-md-4 {
+                padding-left: 100px;
+            }
+
+            .price {
+                background-color: dimgrey;
+            }
+
+            .seats {
+                background-color: dimgrey;
+            }
+
+            .duration {
+                background-color: dimgrey;
+            }
+        }
+
+        .btn-helper {
+            position: relative;
+            left: 50%;
+        }
+
+        .btn-custom {
+            margin-top: 21%;
+            background-color: darkcyan;
+            //background: -webkit-linear-gradient(rgb(0,150,150), rgb(0,138,138));
+            color: white;
+            height: 60px;
+            width: 200px;
+            font-size: 19px;
+        }
+
+
+    }
+
+    .glyph {
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn {
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .splitter {
+        border-bottom: solid white 1px;
+        margin: 50px;
+    }
+
+    .sponsors {
+        h1 { margin-top: 20px;}
+    }
+}

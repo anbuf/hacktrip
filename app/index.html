@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+  <meta charset="utf-8">
+  <title>Google Phone Gallery</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div class="view-container">
+    <div ng-view class="view-frame">
+      <div class="events row">
+        <div class="col-xs-12 col-sm-12 col-md-6 left">
+            <div class="top row">
+                <div class="login col-md-6">
+                    <a href="#">login</a>
+                    <span>/</span>
+                    <a href="#">register</a>
+                </div>
+                <div class="language col-md-6">
+                    <a href="#">FR</a>
+                    <span>/</span>
+                    <a href="#">EN</a>
+                </div>
+            </div>
+            <h1>About us</h1>
+            <p>
+                <b>Hacktrip</b> est un organisme a but non lucratif qui organise des voyages dans des hackathons au travers de l'Amérique du Nord.
+            </p>
+            <div class="row tags">
+                <div class="col-md-4">
+                    <span><b>VOYAGEZ</b></span>
+                </div>
+                <div class="col-md-4">
+                    <span><b>RENCONTREZ</b></span>
+                </div>
+                <div class="col-md-4">
+                    <span><b>APPRENEZ</b></span>
+                </div>
+            </div>
+            <div class="splitter"></div>
+            <div class="sponsors">
+                <h1>SPONSORS</h1>
+            </div>
+        </div> 
+
+        <div class="col-xs-12 col-sm-12 col-md-6 right">
+            <div class="event">
+                <div class="event-info">
+                    <div class="content">
+                        <h1>Hack the North</h1>
+                        <!--<h3>WATERLOO</h3>-->
+                    </div>
+                </div>
+                <div class="row info-bulle-row">
+                    <div class="col-md-4">
+                        <div class="info-bulle price">
+                            <span>150$</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-bulle seats">
+                            <span>Waterloo</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info-bulle duration">
+                            <span>25 sept</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-custom">
+                    MORE DETAILS
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
