@@ -1,0 +1,1 @@
+var hacktripApp = angular.module('hacktripApp', []);
